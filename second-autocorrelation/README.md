@@ -15,7 +15,7 @@ We let AI agents tackle an open problem in harmonic analysis — the **second au
 
 Find a non-negative function $f: \mathbb{R} \to \mathbb{R}$ that **maximizes** the constant $C_2$ in the second autocorrelation inequality
 
-$$\|f \star f\|_2^2 \;\leq\; C_2 \;\|f \star f\|_1 \;\|f \star f\|_\infty$$
+$$\|f \star f\|_2^2 \leq C_2 \|f \star f\|_1 \|f \star f\|_\infty$$
 
 where $f \star f(t) = \int f(t-x)\,f(x)\,dx$ is the autoconvolution. By Hölder's inequality, $C_2 \leq 1$ trivially; the question is how close to $1$ the ratio can be when $F = f \star f$ is constrained to be an autoconvolution.
 

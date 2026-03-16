@@ -12,7 +12,7 @@ We let AI agents tackle an open problem in harmonic analysis — the **first aut
 
 Find a non-negative function $f: \mathbb{R} \to \mathbb{R}$ that **minimizes** the constant $C_1$ in the first autocorrelation inequality
 
-$$\max_{t}\; (f \star f)(t) \;\geq\; C_1 \cdot \left(\int f(x)\, dx\right)^2$$
+$$\max_{t} (f \star f)(t) \geq C_1 \cdot \left(\int f(x)\, dx\right)^2$$
 
 where $f \star f(t) = \int f(t-x)\,f(x)\,dx$ is the autoconvolution. This is a classical problem in harmonic analysis — $C_1$ measures how "peaky" the autoconvolution of a non-negative function must be relative to its squared integral.
 

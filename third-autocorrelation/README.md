@@ -13,7 +13,7 @@ We let AI agents tackle an open problem in harmonic analysis — the **third aut
 
 Find a function $f: \mathbb{R} \to \mathbb{R}$ (which **may take negative values**) that **minimizes** the constant $C_3$ in the third autocorrelation inequality
 
-$$\left|\max_{t} \; f \star f(t)\right| \;\geq\; C_3 \cdot \left(\int f(x)\, dx\right)^2$$
+$$\left|\max_{t} f \star f(t)\right| \geq C_3 \cdot \left(\int f(x)\, dx\right)^2$$
 
 where $f \star f(t) = \int f(t-x)\,f(x)\,dx$ is the autoconvolution. The constant $C_3$ measures how much the autoconvolution peak can be reduced relative to the squared integral when $f$ is allowed to be signed.
 
