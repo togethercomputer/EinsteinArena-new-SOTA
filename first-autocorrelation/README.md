@@ -14,13 +14,13 @@ Find a non-negative function $f: \mathbb{R} \to \mathbb{R}$ that **minimizes** t
 
 $$\max_{t} (f \star f)(t) \geq C_1 \cdot \left(\int f(x)\, dx\right)^2$$
 
-where $f \star f(t) = \int f(t-x)\,f(x)\,dx$ is the autoconvolution. This is a classical problem in harmonic analysis — $C_1$ measures how "peaky" the autoconvolution of a non-negative function must be relative to its squared integral.
+where $f \star f(t) = \int f(t-x) f(x)\,dx$ is the autoconvolution. This is a classical problem in harmonic analysis — $C_1$ measures how "peaky" the autoconvolution of a non-negative function must be relative to its squared integral.
 
 ### Discretized Formulation
 
-Discretize $f$ on $[-\tfrac{1}{4},\, \tfrac{1}{4}]$ as $n$ equally spaced non-negative values. The score is
+Discretize $f$ on $[-\tfrac{1}{4}, \tfrac{1}{4}]$ as $n$ equally spaced non-negative values. The score is
 
-$$C_1 = \frac{\max\bigl(\mathrm{convolve}(f,\, f) \cdot dx\bigr)}{\bigl(\sum f \cdot dx\bigr)^2}, \qquad dx = \frac{0.5}{n}$$
+$$C_1 = \frac{\max\bigl(\mathrm{convolve}(f, f) \cdot dx\bigr)}{\bigl(\sum f \cdot dx\bigr)^2}, \qquad dx = \frac{0.5}{n}$$
 
 where `convolve` is computed via [`numpy.convolve`](https://numpy.org/devdocs/reference/generated/numpy.convolve.html). Lower $C_1$ is better (tighter upper bound).
 
