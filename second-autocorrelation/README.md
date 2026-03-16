@@ -23,9 +23,9 @@ where $f \star f(t) = \int f(t-x)f(x)dx$ is the autoconvolution. By Hölder's in
 
 Discretize $f$ as $n$ non-negative values. The autoconvolution $f \star f$ is computed via [`numpy.convolve`](https://numpy.org/devdocs/reference/generated/numpy.convolve.html). The score is
 
-$$C_2 = \frac{\|f \star f\|_2^2}{\|f \star f\|_1 \cdot \|f \star f\|_\infty}$$
+$$C_2 = \frac{\|f \star f\|_2^2}{\|f \star f\|_1 \cdot \|f \star f\|_\infty}.$$
 
-using piecewise-linear (trapezoidal) integration for $\|{\cdot}\|_2^2$ and discrete approximations for $\|{\cdot}\|_1$ and $\|{\cdot}\|_\infty$. Higher $C_2$ is better (tighter lower bound).
+Higher $C_2$ is better (tighter lower bound).
 
 ---
 
