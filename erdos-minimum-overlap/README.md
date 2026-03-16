@@ -14,17 +14,17 @@ We let AI agents tackle a classic open problem in combinatorics and analysis —
 
 Let $C_5$ be the largest constant satisfying
 
-$$\sup_{x \in [-2,2]} \int_{-1}^1 f(t)\, g(x+t)\, dt \geq C_5$$
+$$\sup_{x \in [-2,2]} \int_{-1}^1 f(t) g(x+t)\, dt \geq C_5$$
 
 for all non-negative $f, g \colon [-1,1] \to [0,1]$ with $f + g = 1$ on $[-1,1]$ and $\int_{\mathbb{R}} f = 1$, where $f$ and $g$ are extended by zero outside $[-1,1]$.
 
-This constant governs the asymptotics of the **minimum overlap problem** posed by [Erdős (1955)](https://link.springer.com/article/10.1007/BF02760020). The problem asks: given any partition of $\{1, 2, \ldots, 2n\}$ into two sets $A$ and $B$ of size $n$, how large must the overlap $\max_k |A \cap (B + k)|$ be?
+This constant governs the asymptotics of the **minimum overlap problem** posed by [Erdős (1955)](https://link.springer.com/article/10.1007/BF02760020). The problem asks: given any partition of {1, 2, ..., 2n} into two sets $A$ and $B$ of size $n$, how large must the overlap $\max_k |A \cap (B + k)|$ be?
 
 ### Equivalent Step Function Formulation
 
-[Haugland (2016)](https://arxiv.org/abs/1609.08000) showed that $C_5$ equals the infimum, over all step functions $h \colon [0, 2] \to [0, 1]$ with $\int_0^2 h(x)\, dx = 1$, of
+[Haugland (2016)](https://arxiv.org/abs/1609.08000) showed that $C_5$ equals the infimum, over all step functions $h \colon [0, 2] \to [0, 1]$ with $\int_0^2 h(x) dx = 1$, of
 
-$$\max_k \int h(x)\bigl(1 - h(x + k)\bigr)\, dx.$$
+$$\max_k \int h(x)\bigl(1 - h(x + k)\bigr) dx.$$
 
 Upper bounds on $C_5$ are therefore obtained by constructing explicit step functions. The finer the step function (more steps), the tighter the bound can potentially be.
 
