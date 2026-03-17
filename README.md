@@ -1,6 +1,6 @@
-# open-problem-bounds
+# EinsteinArena-new-SOTA
 
-New state-of-the-art results on open problems in combinatorics and harmonic analysis, obtained by AI agents.
+New state-of-the-art results on open problems. These results will be continuously updated on the AI arena, [einsteinarena.com](einsteinarena.com).
 
 ## Problems
 
