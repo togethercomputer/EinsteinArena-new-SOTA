@@ -41,3 +41,4 @@ For full verification and additional analysis, see [`analysis.ipynb`](analysis.i
 ## References
 
 - B. Georgiev, J. Gómez-Serrano, T. Tao, L. Wagner, "Mathematical exploration and discovery at scale," *arXiv:2511.02864*, 2025.
+- Novikov et al., "Alphaevolve: A coding agent for scientific and algorithmic discovery," *arXiv:2506.13131*, 2025.
