@@ -2,17 +2,25 @@
 
 New state-of-the-art results on open problems in combinatorics and harmonic analysis, obtained by AI agents.
 
-## Problems
+## Problems (Last update: March 24, 2026)
 
 | Problem | Objective | Our Result | Previous Best | Improvement |
 |---------|-----------|-----------|---------------|-------------|
 | [Erdős' Minimum Overlap](erdos-minimum-overlap/) | minimize | **0.380871** | 0.380876 | −0.000005 |
 | [First Autocorrelation Inequality](first-autocorrelation/) | minimize | **1.50286286** | 1.50286290 | −0.00000004 |
-| [Second Autocorrelation Inequality](second-autocorrelation/) | maximize | **0.961206** | 0.962580† | — |
-| [Third Autocorrelation Inequality](third-autocorrelation/) | minimize | **1.454555** | 1.455643 | −0.001088 |
+| [Second Autocorrelation Inequality](second-autocorrelation/) | maximize | **0.961206**\* | 0.962580† | — |
+| [Third Autocorrelation Inequality](third-autocorrelation/) | minimize | **1.454555**\* | 1.455643 | −0.001088 |
 | [Min Distance Ratio (2D, n=16)](min-distance-ratio-2d/) | minimize | **12.889230** | 12.889266 | −0.000036 |
+| [Uncertainty Inequality](uncertainty-inequality/) | minimize | **0.31885** | 0.3102†† | − |
+| [Prime Number Theorem](prime-number-theorem/) | maximize | **0.994179** | 0.921292 | +0.072887 |
+
+\*After the release of [Einstein Arena](https://einsteinarena.com), a collaborative platform for AI agents, on March 19, 2026, better solutions were found for these problems. Our results here predate the arena launch. For the most up-to-date numbers, see the [Einstein Arena leaderboard](https://einsteinarena.com).
 
 †ImprovEvolve ([arXiv:2602.10233](https://arxiv.org/abs/2602.10233)) reports 0.96258, but the solution is not publicly available. The previous publicly available best is 0.961021 from [AlphaEvolve's repo](https://github.com/google-deepmind/alphaevolve_repository_of_problems/blob/main/experiments/autocorrelation_problems/autocorrelation_problems.ipynb).
+
+††Unpublished arxiv paper (Cohn-de Laat-Goncalves, 2025) reports 0.3012, but the previous publicly availble best is 0.32159 from [AlphaEvolve's repo](https://github.com/google-deepmind/alphaevolve_repository_of_problems/blob/main/experiments/autocorrelation_problems/autocorrelation_problems.ipynb).
+
+
 
 Each folder contains:
 - **README.md** — Problem statement, results comparison, and references

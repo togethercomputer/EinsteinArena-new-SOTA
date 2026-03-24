@@ -1,0 +1,15 @@
+"""
+Laguerre double root positions found by Together AI (Mar 2026).
+
+Uses the Laguerre LP framework from Cohn & Gonçalves (arXiv:1712.04438).
+Upper bound: C_4 <= 0.3189
+"""
+
+import numpy as np
+
+laguerre_double_roots = np.array([
+    3.1427440085666496, 4.469993893132148, 6.078689469782297,
+    32.637646271046336, 38.265477818082566, 41.06153063739393,
+    43.09262298321874, 50.81816373872074, 58.61770809389174,
+    96.07661117430976, 111.48735817427675, 118.74229251036576,
+    141.09580664199572])
