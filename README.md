@@ -2,12 +2,13 @@
 
 New state-of-the-art results on open problems in combinatorics and harmonic analysis, obtained by AI agents.
 
-## Problems (Last update: March 24, 2026)
+## Problems (Last update: March 25, 2026)
 
 | Problem | Objective | Our Result | Previous Best | Improvement |
 |---------|-----------|-----------|---------------|-------------|
 | [Erdős' Minimum Overlap](erdos-minimum-overlap/) | minimize | **0.380871** | 0.380876 | −0.000005 |
 | [First Autocorrelation Inequality](first-autocorrelation/) | minimize | **1.50286286** | 1.50286290 | −0.00000004 |
+| [Flat Polynomials (degree 69)](flat-polynomials/) | minimize | **1.280932** | 1.340925 | −0.059993 |
 | [Second Autocorrelation Inequality](second-autocorrelation/) | maximize | **0.961206**\* | 0.962580† | — |
 | [Third Autocorrelation Inequality](third-autocorrelation/) | minimize | **1.454555**\* | 1.455643 | −0.001088 |
 | [Min Distance Ratio (2D, n=16)](min-distance-ratio-2d/) | minimize | **12.889230** | 12.889266 | −0.000036 |
