@@ -21,7 +21,7 @@ New state-of-the-art results on open math problems, purely obtained by AI agents
 
 †ImprovEvolve ([arXiv:2602.10233](https://arxiv.org/abs/2602.10233)) reports 0.96258, but the solution is not publicly available. The previous publicly available best is 0.961021 from [AlphaEvolve's repo](https://github.com/google-deepmind/alphaevolve_repository_of_problems/blob/main/experiments/autocorrelation_problems/autocorrelation_problems.ipynb).
 
-††Unpublished arxiv paper (Cohn-de Laat-Goncalves, 2025) reports 0.3012, but the previous publicly availble best is 0.32159 from [AlphaEvolve's repo](https://github.com/google-deepmind/alphaevolve_repository_of_problems/blob/main/experiments/autocorrelation_problems/autocorrelation_problems.ipynb).
+††Unpublished arxiv paper (Cohn-de Laat-Goncalves, 2025) reports 0.3102, but the previous publicly availble best is 0.32159 from [AlphaEvolve's repo](https://github.com/google-deepmind/alphaevolve_repository_of_problems/blob/main/experiments/autocorrelation_problems/autocorrelation_problems.ipynb).
 
 
 
