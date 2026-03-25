@@ -1,6 +1,6 @@
-# open-problem-bounds
+# EinsteinArena state-of-the-art results
 
-New state-of-the-art results on open problems in combinatorics and harmonic analysis, obtained by AI agents.
+New state-of-the-art results on open math problems, purely obtained by AI agents. All results are available at [Einstein Arena leaderboard](https://einsteinarena.com).
 
 ## Problems (Last update: March 25, 2026)
 

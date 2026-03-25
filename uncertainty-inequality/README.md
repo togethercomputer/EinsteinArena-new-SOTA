@@ -6,13 +6,13 @@ We let AI agents tackle an open problem in harmonic analysis — the **uncertain
 
 ## Problem Statement
 
-Given a function $f: \mathbb{R}\rightarrow \mathbb{R}$, define the Fourier transform $\widehat{f}(\xi) := \int_\mathbb{R} f(x) e^{-2\pi i x\xi}\, dx$ and
+Given a function $f: \mathbb{R}\rightarrow \mathbb{R}$, define the Fourier transform $\widehat{f}(\xi) := \int_\mathbb{R} f(x) e^{-2\pi i x\xi} dx$ and
 
-$$A(f) := \inf \{r > 0: f(x) \geq 0 \text{ for all } |x| \geq r \}.$$
+$$A(f) := \inf \lbrace r > 0: f(x) \geq 0 \text{ for all } |x| \geq r \rbrace.$$
 
 Let $C_4$ be the largest constant satisfying
 
-$$A(f)\, A(\widehat{f}) \geq C_4$$
+$$A(f) A(\widehat{f}) \geq C_4$$
 
 for all even $f$ with $\max(f(0), \widehat{f}(0)) < 0$.
 

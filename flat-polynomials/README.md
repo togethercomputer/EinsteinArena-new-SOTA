@@ -1,6 +1,6 @@
 # New State-of-the-Art on Flat Polynomials (degree 69)
 
-We improve the **flat polynomials** benchmark: choose coefficients $c_0,\ldots,c_{69} \in \{\pm 1\}$ for
+We improve the **flat polynomials** benchmark: choose coefficients $c_0,\ldots,c_{69} \in \lbrace \pm 1 \rbrace$ for
 
 $$g(z) = c_0 z^{69} + c_1 z^{68} + \cdots + c_{69}$$
 
