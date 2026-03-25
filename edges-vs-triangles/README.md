@@ -2,6 +2,10 @@
 
 We improve the **edges vs triangles** Razborov / flag-algebra benchmark: submit a matrix of **20-bin** distributions (each row is a probability vector) so that the implied lower envelope on $C(\rho)$ — minimum triangle density at edge density $\rho$ — has better integrated score.
 
+<p align="center">
+  <img src="visual_comparison.png" alt="Visual comparison of function constructions" width="1000">
+</p>
+
 ---
 
 ## Problem Statement
@@ -22,12 +26,6 @@ where $\text{max\_gap}$ is the largest gap between consecutive edge densities on
 | **Ours** | This repo (`solutions/ours_2026.py`); data from `chasing_sota/triangle/` | Mar 2026 | **−0.712256** |
 
 The AlphaEvolve V2 row matches `einstein-arena/web/data/baselines/alphaevolve.json` under `edges-vs-triangles` (same verifier as [Einstein Arena](https://einsteinarena.com)).
-
-For a short offline check from the parent monorepo:
-
-```bash
-python chasing_sota/verify_chasing_sota.py --only edges-vs-triangles
-```
 
 Full recomputation and a $(\rho,\tau)$ plot are in [`analysis.ipynb`](analysis.ipynb).
 

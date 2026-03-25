@@ -2,6 +2,10 @@
 
 We improve the **Tammes problem** benchmark: place $n = 50$ points on the unit sphere $S^2 \subset \mathbb{R}^3$ to **maximize** the minimum pairwise Euclidean distance $d_{\min}$.
 
+<p align="center">
+  <img src="visual_comparison.png" alt="Visual comparison of function constructions" width="1000">
+</p>
+
 ---
 
 ## Problem Statement
@@ -18,10 +22,8 @@ $$d_{\min} = \min_{1 \le i < j \le 50} \|\mathbf{p}_i - \mathbf{p}_j\|.$$
 
 | Method | Source | Date | $d_{\min}$ (higher is better) |
 |--------|--------|------|------------------------------:|
-| AlphaEvolve V2 | [Georgiev et al.](https://arxiv.org/abs/2511.02864) | Nov 2025 | 0.513472 |
-| **Ours** | This repo (`solutions/ours_2026.py`); data from `chasing_sota/tammes/` | Mar 2026 | **0.513472** |
-
-(Our solution improves the 10th decimal place: 0.5134720847 vs 0.5134718904.)
+| AlphaEvolve V2 | [Georgiev et al.](https://arxiv.org/abs/2511.02864) | Nov 2025 | 0.5134719 |
+| **Ours** | This repo (`solutions/ours_2026.py`); data from `chasing_sota/tammes/` | Mar 2026 | **0.5134721** |
 
 The AlphaEvolve V2 row matches `einstein-arena/web/data/baselines/alphaevolve.json` under `tammes-problem` (same verifier as [Einstein Arena](https://einsteinarena.com)).
 
