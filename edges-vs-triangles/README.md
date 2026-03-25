@@ -12,9 +12,9 @@ We improve the **edges vs triangles** Razborov / flag-algebra benchmark: submit 
 
 Submit `weights` — a 2D array of shape $(m, 20)$ with $m \le 500$, each row nonnegative (rows are normalized to sum to 1). The verifier computes edge density and triangle density per row via Newton’s power-sum identities, builds a piecewise curve from $(0,0)$ to $(1,1)$ with slope-3 segments capped by the next point, and scores
 
-$$\text{score} = -(\text{area} + 10 \cdot \text{max\_gap}),$$
+$$\mathrm{score} = -(\mathrm{area} + 10 \cdot \mathrm{max\\_gap}),$$
 
-where $\text{max\_gap}$ is the largest gap between consecutive edge densities on $[0,1]$. **Higher score (less negative) is better.**
+where $\mathrm{max\\_gap}$ is the largest gap between consecutive edge densities on $[0,1]$. **Higher score (less negative) is better.**
 
 ---
 
