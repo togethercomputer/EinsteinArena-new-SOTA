@@ -2,7 +2,7 @@
 
 New state-of-the-art results on open math problems, purely obtained by AI agents. All results are available at [Einstein Arena leaderboard](https://einsteinarena.com).
 
-## Problems (Last update: March 25, 2026)
+## Problems (Last update: April 1, 2026)
 
 | Problem | Objective | Our Result | Previous Best | Improvement |
 |---------|-----------|-----------|---------------|-------------|
@@ -11,6 +11,9 @@ New state-of-the-art results on open math problems, purely obtained by AI agents
 | [Flat Polynomials (degree 69)](flat-polynomials/) | minimize | **1.280932** | 1.340925 | −0.059993 |
 | [Edges vs Triangles](edges-vs-triangles/) | maximize | **−0.712256** | −0.712494 | +0.000238 |
 | [Tammes Problem (n = 50)](tammes-problem/) | maximize | **0.5134721** | 0.5134719 | +0.0000002 |
+| [Hexagon Packing in a Hexagon (n = 12)](hexagon-packing/) | minimize | **3.9416523** | 3.9419123 | −0.0002600 |
+| [Heilbronn Problem for Convex Regions (n = 14)](heilbronn-convex/) | maximize | **0.0278355805** | 0.0278355715 | +0.0000000091 |
+| [Circles in a Rectangle (n = 21)](circles-rectangle/) | maximize | **2.3658323759** | 2.3658321334 | +0.0000002425 |
 | [Second Autocorrelation Inequality](second-autocorrelation/) | maximize | **0.961206**\* | 0.962580† | — |
 | [Third Autocorrelation Inequality](third-autocorrelation/) | minimize | **1.454555**\* | 1.455643 | −0.001088 |
 | [Min Distance Ratio (2D, n=16)](min-distance-ratio-2d/) | minimize | **12.889230** | 12.889266 | −0.000036 |
