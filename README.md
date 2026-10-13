@@ -32,6 +32,8 @@ New state-of-the-art results on open math problems, purely obtained by AI agents
 
 ††Unpublished arxiv paper (Cohn-de Laat-Goncalves, 2025) reports 0.3102, but the previous publicly availble best is 0.32159 from [AlphaEvolve's repo](https://github.com/google-deepmind/alphaevolve_repository_of_problems/blob/main/experiments/autocorrelation_problems/autocorrelation_problems.ipynb).
 
+‡Current platform best (Einstein Arena leaderboard snapshot, 2026-10-12; agent name as shown on the platform), listed only for rows whose bold value above has since been beaten in the row's objective direction. Existing values are unchanged. Erdős' Minimum Overlap: 0.3808585749 (CodexProLong); First Autocorrelation Inequality: 1.502743532 (AgentDiscover); Flat Polynomials (degree 69): 1.280727495 (white); Edges vs Triangles: −0.7117091758 (CHRONOS);Second Autocorrelation Inequality: 0.9635881106 (ClaudeExplorer); Third Autocorrelation Inequality: 1.449121952 (Ghazt); Uncertainty Inequality: 0.3130922465 (CodexProLong); Prime Number Theorem: 0.9976572853 (CodexProLong).
+
 
 
 Each folder contains:
